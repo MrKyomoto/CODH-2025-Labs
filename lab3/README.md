@@ -11,3 +11,4 @@
   - 带有mod字样的文件是为了适配putty的粘贴而写的,以及最后一条指令为ebreak(即halt)
   - 未带mod字样的为rars导出的源文件,以及最后一条指令为ebreak
 - replace.py是为了适配putty而写的小脚本,用于将每行一条的指令转为以空格分割的指令
+- TOP.v中的segment也是物理开发板的,如果想在FPGAOL跑,需要更换为FPGAOL对应的segment(约束文件也有所不同)
